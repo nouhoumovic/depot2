@@ -1,0 +1,59 @@
+
+# Created by https://www.toptal.com/developers/gitignore/api/laravel,angular
+# Edit at https://www.toptal.com/developers/gitignore?templates=laravel,angular
+
+### Angular ###
+## Angular ##
+# compiled output
+dist/
+tmp/
+app/**/*.js
+app/**/*.js.map
+
+# dependencies
+node_modules/
+bower_components/
+
+# IDEs and editors
+.idea/
+
+# misc
+.sass-cache/
+connect.lock/
+coverage/
+libpeerconnection.log/
+npm-debug.log
+testem.log
+typings/
+
+# e2e
+e2e/*.js
+e2e/*.map
+
+# System Files
+.DS_Store/
+
+### Laravel ###
+/vendor/
+yarn-error.log
+
+# Laravel 4 specific
+bootstrap/compiled.php
+app/storage/
+
+# Laravel 5 & Lumen specific
+public/storage
+public/hot
+
+# Laravel 5 & Lumen specific with changed public path
+public_html/storage
+public_html/hot
+
+storage/*.key
+.env
+Homestead.yaml
+Homestead.json
+/.vagrant
+.phpunit.result.cache
+
+# End of https://www.toptal.com/developers/gitignore/api/laravel,angular
