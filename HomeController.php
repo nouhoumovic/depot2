@@ -41,8 +41,5 @@ class HomeController extends Controller
             'password_confirmation' => 'required',
         ]);
 
-        $image = time() . '.' . $request->image->extension();
-        $request->image->move(public_path('images'), $image);
-
 
 }
